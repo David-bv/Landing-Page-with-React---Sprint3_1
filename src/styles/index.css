@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:ital,wght@0,400;0,600;1,700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+
+  margin: 0;
+}
+
+body {
+  background-color: hsl(218, 28%, 13%);
+}
+
+
+.App {
+  background-image: url(https://res.cloudinary.com/david-b/image/upload/v1646188776/AG/3%20sprint/Reto%201/bg-curvy-desktop_xpggkm.svg);
+  background-color: hsl(218, 28%, 13%);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background-position: center;
+  height: auto;
+  width: auto;
+}
+
+.Icon {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+  margin: 5px;
+}
+
+.Icon:hover {
+  color: #8cdae4;
+}
+
+.IconTwo {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.IconTwo:hover {
+  color: #8cdae4;
+}
+
+.IconLocation {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+
+.IconLocation:hover {
+  color: #8cdae4;
+}
+
+@media only screen and (max-width: 600px) {
+  .IconLocation {
+    margin-left: -12px;
+  }
+  .IconTwo {
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+}
